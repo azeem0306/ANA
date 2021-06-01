@@ -1,5 +1,6 @@
 ...........Important Notes...........
 
+1. Always pull before doing any change.
 1. Always create pull requests. Don't merge directly. Eg: https://github.com/azeem0306/ANA/pull/1
 2. Always use Sass file to create styles.
 3. Name the commit in a way others can understand what you did and put a comment if possible.
