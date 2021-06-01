@@ -18,12 +18,15 @@ body {
     .nav {
         background-color: $nav-color;
         color: $light-color;
-        height: 50px;
+        height: 60px;
         display: flex;
         align-items: center;
         padding: 0 30px;
         justify-content: space-between;
+        
+        &-container {
 
+        }
         ul {
             list-style: none;
             display: flex;
