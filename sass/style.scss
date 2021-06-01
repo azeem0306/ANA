@@ -7,7 +7,41 @@
 }
 
 body {
-    background-color: $primary-color;
-    color: $light-color;
+    background-color: $light-color;
+    font-family: $font-stack;
+    line-height: 1.6;
 }
 
+.head {
+    height: 900px;
+    background-color: $primary-color;
+    .nav {
+        background-color: $nav-color;
+        color: $light-color;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        padding: 0 30px;
+        justify-content: space-between;
+
+        ul {
+            list-style: none;
+            display: flex;
+        }
+
+        li {
+            padding: 15px;
+        }
+
+        a {
+            color: $light-color;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: $primary-color;
+        }
+}
+}
+
+@import 'util';
